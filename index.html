@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
   <title>Passenger Counter</title>
+  <link rel="icon" type="image/x-icon" href="https://em-content.zobj.net/source/apple/419/straight-ruler_1f4cf.png">
 </head>
 <body>
 
@@ -23,15 +24,18 @@
    <main>
     <div class="main-div">
       <h1 id="header">Passenger C0unter</h1>
-      <h2 id="count">0</h2>
+      <h2 id="countBtn">0</h2>
         <div class="buttons">
-          <button id="increase">Increase</button>
+          <button id="increase" onclick="increment()">Increase</button>
           <button id="decrease">Decrease</button>
           <button id="reset">reset</button>
           <button id="save">Save</button>
         </div>
     </div>
-   </main>
 
+    <!-- JS file link -->
+     
+   </main>
+<script src="./index.js"></script>
 </body>
 </html>
