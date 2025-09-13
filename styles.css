@@ -1,0 +1,91 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #f7f7f2;
+  margin: 0; 
+}
+
+/* nav bar */
+
+.nav-bar {
+  background-color: #ff0000;
+  
+}
+
+/* nav bar links */
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  margin: 0;
+  color: white;
+  border-bottom: 2px solid #261c15;
+}
+
+/* nav links color */
+
+a {
+  color: white;
+}
+
+/* main div */
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+/* header */
+
+#header {
+  color: #261c15;
+  font-size: 40px;
+}
+
+/* count */
+
+#count {
+  font-size: 100px;
+  color: #261c15;
+  margin: 20px;
+}
+
+/* All buttons - increase, decrease, reset and save */
+
+.buttons {
+  display: inline;
+}
+
+#increase, #decrease, #reset, #save {
+  gap: 5px;
+  margin: 20px;
+  padding: 12px 25px;
+  border: 1px solid #261c15;
+  border-radius: 10px;
+  color: white;
+}
+
+/* increase button */
+
+#increase, #save {
+  background-color: green;
+}
+
+/* decrease button */
+
+#decrease {
+  background-color: red;
+}
+
+/* reset button */
+
+#reset {
+  background-color: blue;
+}
+
+/* save button */
