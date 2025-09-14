@@ -61,7 +61,7 @@ a {
   display: inline;
 }
 
-#increase, #decrease, #reset, #save {
+#increase, #decrease, #reset, #save-btn {
   gap: 5px;
   margin: 20px;
   padding: 12px 25px;
@@ -72,7 +72,7 @@ a {
 
 /* increase button */
 
-#increase, #save {
+#increase, #save-btn {
   background-color: green;
 }
 
