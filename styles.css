@@ -88,4 +88,9 @@ a {
   background-color: blue;
 }
 
-/* save button */
+/* Enteries */
+
+#entries {
+  font-size: 25px;
+  color: #261c15;
+}
