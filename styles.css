@@ -1,13 +1,13 @@
 body {
   font-family:Arial, Helvetica, sans-serif;
-  background-color: #f7f7f2;
+  background-color: #53565d;
   margin: 0; 
 }
 
 /* nav bar */
 
 .nav-bar {
-  background-color: #ff0000;
+  background-color: #282c34;
   
 }
 
@@ -22,13 +22,13 @@ body {
   padding: 30px;
   margin: 0;
   color: white;
-  border-bottom: 2px solid #261c15;
+  border-bottom: 9px solid #ee2e24;
 }
 
 /* nav links color */
 
 a {
-  color: white;
+  color: #fff;
 }
 
 /* main div */
@@ -43,7 +43,7 @@ a {
 /* header */
 
 #header {
-  color: #261c15;
+  color: #5ea6e2;
   font-size: 40px;
 }
 
@@ -51,7 +51,7 @@ a {
 
 #countBtn {
   font-size: 100px;
-  color: #261c15;
+  color: #e06c75;
   margin: 20px;
 }
 
@@ -73,24 +73,30 @@ a {
 /* increase button */
 
 #increase, #save-btn {
-  background-color: green;
+  background-color: #5ea6e2;
 }
 
 /* decrease button */
 
 #decrease {
-  background-color: red;
+  background-color: #e06c75;
 }
 
 /* reset button */
 
 #reset {
-  background-color: blue;
+  background-color: #da70d6;
 }
 
 /* Enteries */
 
 #entries {
   font-size: 25px;
-  color: #261c15;
+  color: #b6deff;
+}
+
+/* prev entries */
+
+.prev {
+  color: #da70d6;
 }
