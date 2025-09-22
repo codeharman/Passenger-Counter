@@ -24,7 +24,7 @@ Built using **HTML, CSS, and JavaScript**, this app is great for practicing **DO
 
 Clone this repository:
 
-- git clone https://github.com/your-username/passenger-counter.git
+- git clone https://github.com/codeharman/Passenger-Counter.git
 
 - Open the project folder.
 - Open index.html in your browser.
